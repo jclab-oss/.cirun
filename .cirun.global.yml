@@ -1,0 +1,12 @@
+runners:
+  - name: cirun-gcp-2xl
+    cloud: gcp
+    instance_type: e2-standard-16
+    machine_image: ubuntu-2204-lts
+    region: us-central1-a
+    preemptible: true
+    extra_config:
+      baseDisk:
+        diskSizeGb: 294
+    labels:
+      - cirun-gcp-2xl
