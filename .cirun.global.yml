@@ -2,7 +2,7 @@ runners:
   - name: cirun-gcp-2xl
     cloud: gcp
     instance_type: e2-standard-16
-    machine_image: ubuntu-2204-lts
+    machine_image: projects/gcrunner-images/global/images/family/gcrunner-ubuntu2404-x64
     region: us-central1-a
     preemptible: true
     extra_config:
@@ -14,7 +14,7 @@ runners:
   - name: cirun-gcp-xlarge
     cloud: gcp
     instance_type: e2-standard-8
-    machine_image: ubuntu-2204-lts
+    machine_image: projects/gcrunner-images/global/images/family/gcrunner-ubuntu2404-x64
     region: us-central1-a
     preemptible: true
     extra_config:
